@@ -1,5 +1,6 @@
 #part 1
 grid = open("Advent of Code 2023\Day 3\day_3.txt", "r").read().splitlines()
+
 print(grid)
 cs = set()
 
