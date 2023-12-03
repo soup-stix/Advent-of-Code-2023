@@ -1,37 +1,4 @@
 #part 1
-# def remove_newline(data):
-#     return [row[:-1] if row[-1] == "\n" else row for row in data]
-
-
-# with open("Advent of Code 2023\Day 3\day_3.txt", "r") as f:
-#     # engine_schema = f.readlines()
-#     engine_schema = f.readlines()
-
-# total = 0
-# final_schema = []
-
-# for line in engine_schema:
-#     final_schema.append(list(line))
-
-# final_schema = remove_newline(final_schema)
-# print(final_schema)
-# POS = [(0,1),(1,0),(0,-1),(-1,0),(1,1),(1,-1),(-1,1),(-1,-1)]
-
-# for i in range(len(final_schema)):
-#     for j in range(len(final_schema[i])):
-#         if not final_schema[i][j].isalnum() and not final_schema[i][j] == ".":
-#             # print(final_schema[i][j])
-#             for x,y in POS:
-#                 if 0<=(i+x)<len(final_schema) and 0<=(j+y)<len(final_schema[i]) and final_schema[i+x][j+y].isdigit():
-#                     print(final_schema[i][j],final_schema[i+x][j+y])
-
-#                     total+=int(final_schema[i+x][j+y])
-
-
-# print(len(final_schema), len(final_schema[0]))
-
-# print(total)
-
 grid = open("Advent of Code 2023\Day 3\day_3.txt", "r").read().splitlines()
 print(grid)
 cs = set()
