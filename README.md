@@ -5,3 +5,4 @@ Each folder is named with the day and has 2 python files, part 1 and part 2 alon
 
 <small>**pls, try to do the AOC by yourself before looking at the solution.</small> 
 
+\_(*-*)_/ I gave up after day 4, have lots of other stuff
